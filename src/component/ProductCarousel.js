@@ -1,10 +1,14 @@
 import Items from "./Items";
 
+
 const ProductCarousel = (props) => {
 
     return(
+        <>
 
-        <Items props={props} />
+                <Items products={props.products} />
+
+        </>
     )
 
 }
