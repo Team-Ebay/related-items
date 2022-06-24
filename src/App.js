@@ -6,16 +6,19 @@ const App = () => {
   const [products, setProducts] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/products')
+    fetch('http://localhost:4000/api/products/')
     .then(response => response.json())
-    .then(data => setProducts({data}))
-  })
+    .then(data => setProducts(data))
+  }, [])
 
-  return (
-    <>
-    <ProductCarousel products={products} />
-    </>
-  );
+  if(products !== null) {
+    return (
+      <>
+      <ProductCarousel products={products} />
+      </>
+    );
+  }
+  
 }
 
 export default App;
