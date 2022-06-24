@@ -3,7 +3,7 @@ INSERT INTO products (name, condition, price, shipping, rating, items_sold, imag
 
 INSERT INTO products (name, condition, price, shipping, items_sold, image_url) VALUES ('4 pack X-Large Paisley Cotton Printed Bandana - 27 X 27 Inches', 'New', '$15.45', 'Free shipping', '26 sold', 'https://i.ebayimg.com/thumbs/images/g/lf4AAOSwdDVg7KQL/s-l200.jpg');
 
-INSERT INTO products (name, condition, price, shipping, items_sold, image_url) VALUES ('5 Extra Large Cotton Paisley Bandanas 27 X 27 Inches - Party and Decoration-', 'New', '$16.95', 'Free shipping' '83 sold','https://i.ebayimg.com/thumbs/images/g/lf4AAOSwdDVg7KQL/s-l200.jpg');
+INSERT INTO products (name, condition, price, shipping, items_sold, image_url) VALUES ('5 Extra Large Cotton Paisley Bandanas 27 X 27 Inches - Party and Decoration-', 'New', '$16.95', 'Free shipping', '83 sold','https://i.ebayimg.com/thumbs/images/g/lf4AAOSwdDVg7KQL/s-l200.jpg');
 
 INSERT INTO products (name, condition, price, shipping, items_sold, image_url) VALUES ('Pack of 6 X-Large Paisley Cotton Printed Bandana-27 X 27 inches', 'New', '$19.95', 'Free shipping', '61 sold','https://i.ebayimg.com/thumbs/images/g/lf4AAOSwdDVg7KQL/s-l200.jpg');
 
