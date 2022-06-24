@@ -1,4 +1,28 @@
 body {
+  margin: 10;
+}
+
+.carousel {
+  display: inline-flex;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  width: 100%
+}
+.header{
+  position: absolute;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.singleItem {
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.itemDesc {
   margin: 0;
 }
 
+.price {
+  margin: 5px;;
+}
