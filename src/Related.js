@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ProductCarousel from './component/ProductCarousel';
 
-const Rel = () => {
+const Related = () => {
 
   const [products, setProducts] = useState(null);
 
@@ -21,4 +21,4 @@ const Rel = () => {
   
 }
 
-export default App;
+export default Related;
