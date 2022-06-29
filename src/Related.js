@@ -6,7 +6,7 @@ const Related = () => {
   const [products, setProducts] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/products/')
+    fetch('http://localhost:4004/api/products/')
     .then(response => response.json())
     .then(data => setProducts(data))
   }, [])
