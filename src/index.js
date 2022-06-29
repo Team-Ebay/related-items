@@ -4,7 +4,7 @@ import './index.css';
 import Related from './Related';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('related-items'));
 root.render(
   <React.StrictMode>
     <Related />
