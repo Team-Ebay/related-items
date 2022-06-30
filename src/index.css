@@ -4,13 +4,17 @@ body {
   margin: 10;
 }
 
+.related-items {
+  
+}
+
 .carousel {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-shrink: 0;
   border: 2px solid lightgray;
   border-radius: 5px;
-  width: 1000px;
+  width: 98vw;
   height: 480px;
   min-width: 1000px;
   transition: transform 0.5s;
