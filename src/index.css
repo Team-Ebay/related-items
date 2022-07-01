@@ -10,7 +10,7 @@ body {
   flex-shrink: 0;
   border: 2px solid lightgray;
   border-radius: 5px;
-  width: 98vw;
+  width: 1024px;
   height: 480px;
   min-width: 1000px;
   transition: transform 0.5s;
